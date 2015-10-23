@@ -1,6 +1,6 @@
 # Node-NXT
 
-Node-NXT is a Node.js project that can be used to contol a Lego Mindstorms NXT device that is running pbLua.
+Node-NXT is a Node.js project that can be used to control a Lego Mindstorms NXT device that is running pbLua.
 
 Node-NXT mirrors the NXT API of pbLua, enabling you to write scripts to control the device in JavaScript.
 
@@ -26,7 +26,7 @@ nodeNxt.connect ('/dev/cu.usbmodem621', function (nxt) {
 
 Then use the value passed to the callback in much the same way as you would in pbLua:
 
-```js	
+```js
 	nxt.DisplayText ('Hello world.');
 ```
 
@@ -41,7 +41,7 @@ Use callbacks to retrieve returned values:
 See also the included example script.
 
 
-## License 
+## License
 
 (The MIT License)
 
